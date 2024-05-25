@@ -1,4 +1,4 @@
-# Customer Churn Prediction for a Telecommunications Company
+# Customer Churn Prediction for a Telecom Company
 
 ## Table of Contents
 
@@ -34,7 +34,7 @@
 
 ## Project Overview
 
-This project aims to predict customer attrition for a telecommunications company using various machine learning algorithms. The focus is on developing models that can accurately identify customers who are likely to leave based on their historical data.
+This project aims to predict customer attrition for a telecom company using various machine learning algorithms. The focus is on developing models that can accurately identify customers who are likely to leave based on their historical data.
 
 ## Data Sources
 
