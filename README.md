@@ -66,6 +66,8 @@ The dataset used in this project contains customer information, including demogr
 - **TotalCharges**: The total amount charged to the customer.
 - **Churn**: Indicates if the customer has churned (Yes/No).
 
+  ![Dataset Description](https://i.postimg.cc/GpVrj80K/Screenshot-2024-05-25-at-20-05-18-churn-final-Jupyter-Notebook.png)
+
 ## Tools
 
 - Python: Data Cleaning and Analysis
