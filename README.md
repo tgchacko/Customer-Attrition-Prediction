@@ -68,13 +68,13 @@ The dataset used in this project contains customer information, including demogr
 
 ## Tools
 
-- **Python: Data Cleaning and Analysis**
+- Python: Data Cleaning and Analysis
 
-          [Download Python](https://www.python.org/downloads/)
-          
-- **Jupyter Notebook: For interactive data analysis and visualization**
+    [Download Python](https://www.python.org/downloads/)
 
-          [Install Jupyter](https://jupyter.org/install)
+- Jupyter Notebook: For interactive data analysis and visualization
+
+    [Install Jupyter](https://jupyter.org/install)
           
 **Libraries**
 
