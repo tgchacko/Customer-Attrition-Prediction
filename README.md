@@ -1,4 +1,4 @@
-# Customer Attrition Prediction for a Telecommunications Company
+# Customer Churn Prediction for a Telecommunications Company
 
 ## Table of Contents
 
