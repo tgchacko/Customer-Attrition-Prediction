@@ -66,7 +66,9 @@ The dataset used in this project contains customer information, including demogr
 - **TotalCharges**: The total amount charged to the customer.
 - **Churn**: Indicates if the customer has churned (Yes/No).
 
-  ![Dataset Description](https://i.postimg.cc/GpVrj80K/Screenshot-2024-05-25-at-20-05-18-churn-final-Jupyter-Notebook.png)
+  ![Dataset Description1](https://i.postimg.cc/GpVrj80K/Screenshot-2024-05-25-at-20-05-18-churn-final-Jupyter-Notebook.png)
+
+  ![Dataset Description2](https://i.postimg.cc/L4LSS8fY/Screenshot-2024-05-25-at-20-08-30-churn-final-Jupyter-Notebook.png)
 
 ## Tools
 
@@ -109,13 +111,48 @@ o	**PCA (Principal Component Analysis)**: Reduces dimensionality by transforming
 o	**LDA (Linear Discriminant Analysis)**: Maximizes separability between classes by projecting data in a lower-dimensional space.
 o	**RFE (Recursive Feature Elimination)**: Selects features by recursively considering smaller sets and pruning the least important ones.
 o	**VIF (Variance Inflation Factor)**: Identifies multicollinearity among features. Features with high VIF values were removed to improve model performance.
+o	**Feature Importance**: Feature importance methods help identify which features in a dataset contribute the most to the predictive power of a machine learning model.
+
 
 ## Graphs/Visualizations
 
-- Histograms and bar charts for feature distributions
-- Correlation heatmap to identify relationships between features
-- Pair plots to visualize relationships between multiple features
-- Box plots to identify outliers
+- **Histograms and bar charts for feature distributions**
+  
+  ![Distribution1](https://i.postimg.cc/vZ6psQc2/Screenshot-2024-05-25-at-20-10-18-churn-final-Jupyter-Notebook.png)
+
+  ![Distribution2](https://i.postimg.cc/nhPSMNQj/Screenshot-2024-05-25-at-20-12-13-churn-final-Jupyter-Notebook.png)
+
+  ![Distribution3](https://i.postimg.cc/cJcmwjvB/Screenshot-2024-05-25-at-20-13-54-churn-final-Jupyter-Notebook.png)
+
+  ![Distribution4](https://i.postimg.cc/Dyv0CMpM/Screenshot-2024-05-25-at-20-18-09-churn-final-Jupyter-Notebook.png)
+
+  ![Distribution5](https://i.postimg.cc/QtjCRYxC/Screenshot-2024-05-25-at-20-19-07-churn-final-Jupyter-Notebook.png)
+
+  ![Distribution6](https://i.postimg.cc/CK2Y4vB9/Screenshot-2024-05-25-at-20-20-18-churn-final-Jupyter-Notebook.png)
+
+  ![Distribution7](https://i.postimg.cc/xdvB4nCr/Screenshot-2024-05-25-at-20-22-46-churn-final-Jupyter-Notebook.png)
+  
+- **Correlation heatmap to identify relationships between features**
+
+  ![Heatmap](https://i.postimg.cc/m2QLsfhw/Screenshot-2024-05-25-at-20-24-20-churn-final-Jupyter-Notebook.png)
+  
+- **Box Plots and Scatter Plots to visualize relationships between multiple features**
+
+  ![Tenure by Internet Service](https://i.postimg.cc/qMbzYHF5/Screenshot-2024-05-25-at-20-27-35-churn-final-Jupyter-Notebook.png)
+
+  !['Tenure vs Monthly Charges'](https://i.postimg.cc/nz3XJ8zr/Screenshot-2024-05-25-at-20-29-20-churn-final-Jupyter-Notebook.png)
+
+  ![Tenure by Contract](https://i.postimg.cc/rpShgjpQ/Screenshot-2024-05-25-at-20-31-01-churn-final-Jupyter-Notebook.png)
+
+  ![Total Charges vs Monthly Charges](https://i.postimg.cc/28GLdZmh/Screenshot-2024-05-25-at-20-32-39-churn-final-Jupyter-Notebook.png)
+
+  ![Monthly Charges by Payment Method](https://i.postimg.cc/tJ0vzc3S/Screenshot-2024-05-25-at-20-34-58-churn-final-Jupyter-Notebook.png)
+  
+- **Box plots to identify outliers**
+
+  ![Boxplot1](https://i.postimg.cc/wMGvPhBG/Screenshot-2024-05-25-at-20-36-04-churn-final-Jupyter-Notebook.png)
+
+  ![Boxplot2](https://i.postimg.cc/4xBJF6Fb/Screenshot-2024-05-25-at-20-37-18-churn-final-Jupyter-Notebook.png)
 
 ## Choosing the Algorithm for the Project
 
@@ -141,11 +178,23 @@ o	**VIF (Variance Inflation Factor)**: Identifies multicollinearity among featur
 
 ## Results
 
-After analyzing the metrics for all the models, the overall best model was determined to be the Random Forest Classifier (after hypertuning). The metrics of this model are below:
+After analyzing the metrics for all the models and feature extraction methods, the overall best model was determined to be the Random Forest Classifier (after hypertuning) without any feature extraction(on the original dataset). The metrics of this model are below:
 - Accuracy: 86.94%
 - Precision: 86.82%
 - Recall: 87.11%
 - AUC-ROC: 86.93%
+
+![Results using VIF Method](https://i.postimg.cc/bNP3NWqg/Screenshot-2024-05-25-at-20-38-57-churn-final-Jupyter-Notebook.png)
+
+![Results using PCA Method](https://i.postimg.cc/MKR0RDpT/Screenshot-2024-05-25-at-20-43-04-churn-final-Jupyter-Notebook.png)
+
+![Results using LDA Method](https://i.postimg.cc/d39sPp93/Screenshot-2024-05-25-at-20-43-45-churn-final-Jupyter-Notebook.png)
+
+![Results using Feature Importance Method](https://i.postimg.cc/B6KyKFLG/Screenshot-2024-05-25-at-20-47-00-churn-final-Jupyter-Notebook.png)
+
+![Results using RFE Method](https://i.postimg.cc/xdyNTxgr/Screenshot-2024-05-25-at-20-48-44-churn-final-Jupyter-Notebook.png)
+
+![Results using Original Dataset Method](https://i.postimg.cc/g25bLmS8/Screenshot-2024-05-25-at-20-49-36-churn-final-Jupyter-Notebook.png)
 
 ## Recommendations
 
