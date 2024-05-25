@@ -152,7 +152,7 @@ o	**Feature Importance**: Feature importance methods help identify which feature
 
   ![Boxplot1](https://i.postimg.cc/wMGvPhBG/Screenshot-2024-05-25-at-20-36-04-churn-final-Jupyter-Notebook.png)
 
-  ![Boxplot2](https://i.postimg.cc/4xBJF6Fb/Screenshot-2024-05-25-at-20-37-18-churn-final-Jupyter-Notebook.png)
+  ![Boxplot2](https://i.postimg.cc/hPD0TmNR/Screenshot-2024-05-25-at-20-52-44-churn-final-Jupyter-Notebook.png)
 
 ## Choosing the Algorithm for the Project
 
