@@ -179,10 +179,10 @@ o	**Feature Importance**: Feature importance methods help identify which feature
 ## Results
 
 After analyzing the metrics for all the models and feature extraction methods, the overall best model was determined to be the Random Forest Classifier (after hypertuning) without any feature extraction(on the original dataset). The metrics of this model are below:
-- Accuracy: 86.94%
-- Precision: 86.82%
-- Recall: 87.11%
-- AUC-ROC: 86.93%
+- **Accuracy**: 86.94%
+- **Precision**: 86.82%
+- **Recall**: 87.11%
+- **AUC-ROC Score**: 86.93%
 
 ![Results using VIF Method](https://i.postimg.cc/bNP3NWqg/Screenshot-2024-05-25-at-20-38-57-churn-final-Jupyter-Notebook.png)
 
