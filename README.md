@@ -1,4 +1,4 @@
-# Customer Attrition Prediction for the Telecommunications Industry
+# Customer Attrition Prediction for a Telecommunications Company
 
 ## Table of Contents
 
@@ -34,7 +34,7 @@
 
 ## Project Overview
 
-This project aims to predict customer attrition for the telecommunications industry using various machine learning algorithms. The focus is on developing models that can accurately identify customers who are likely to leave based on their historical data.
+This project aims to predict customer attrition for a telecommunications company using various machine learning algorithms. The focus is on developing models that can accurately identify customers who are likely to leave based on their historical data.
 
 ## Data Sources
 
